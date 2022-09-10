@@ -24,3 +24,9 @@ function x (int a, int b){
 
 }
 ```
+
+### Arquivos relacionados:
+- [Formulário principal](Compilador/FormMain.cs)
+- [Diretório analizador léxico](Compilador/Lexico)
+- [Diretório analisador sintático](Compilador/Sintatico/DescendentePreditivoLL1)
+- [Arquivo executável](Compilador/bin/Debug/Compilador.exe)
