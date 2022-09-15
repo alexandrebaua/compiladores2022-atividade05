@@ -18,6 +18,11 @@ namespace Compilador.Sintatico.DescendentePreditivoLL1
         private static LexicoClass lexico = null;
         private static Stack<string> pilhaTokens = null;
 
+        /// <summary>
+        /// Executa a verificação sintática utilizando os tokens passados pelo analisador léxico.
+        /// </summary>
+        /// <param name="lexico">O analisador léxico contendo os tokens a serem analisados.</param>
+        /// <param name="resultado">O ListBox para exibir os resultados da verificação sintática.</param>
         public static void Verificar(LexicoClass lexico, ListBox resultado)
         {
             if (lexico == null)
